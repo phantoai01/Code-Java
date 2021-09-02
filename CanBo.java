@@ -35,18 +35,5 @@ public class CanBo {
                 CanBo a = new CanBo();
                 a.nhap();
                 a.xuat();
-                System.out.println("Nhap thong Tin Cua Nhan Vien.");
-                
-                NhanVien b = new NhanVien();
-                b.nhap();
-                b.xuat();
-                System.out.println("Nhap thong Tin Cua Cong Nhan.");
-                CongNhan c = new CongNhan();
-                c.nhap();
-                c.xuat();
-                System.out.println("Nhap thong Tin Cua Ky Su.");
-                KySu d = new KySu();
-                d.nhap();
-                d.xuat();
         }
 }
